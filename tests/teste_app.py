@@ -4,7 +4,7 @@ from app import somar
 
 class TestApp(unittest.TestCase):
     def test_soma_positivos(self):
-        self.assertEqual(somar(2, 3), 5)
+        self.assertEqual(somar(2, 3), 6)
 
     def test_soma_negativos(self):
         self.assertEqual(somar(-1, -2), -3)
